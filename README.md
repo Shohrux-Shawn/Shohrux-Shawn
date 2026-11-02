@@ -1,7 +1,7 @@
 # Shohrux Muhiddiyn
 
 **Senior Software Developer** · Busan, South Korea<br>
-Full-stack TypeScript · Technical SEO & GEO · AI-assisted content systems
+Full-stack TypeScript · Web & mobile (React, React Native, iOS) · Technical SEO & GEO · AI products
 
 I build and run production web platforms end to end — architecture, backend, frontend,
 deployment, and the search visibility that makes them pay off.
@@ -19,6 +19,9 @@ deployment, and the search visibility that makes them pay off.
   per-IP rate limits and cited sources.
 - **Content pipeline** — automated generation, review rules and scheduled drip publishing
   across all sites (~70 articles/day), with sitemap and search-console submission.
+- **Byeolgil — AI fortune-telling app** — saju, yearly fortune, compatibility, plus face and
+  palm reading from camera photos. Web app (React) and a React Native mobile app for iOS,
+  on Supabase + Fly.io, multilingual.
 - **Automation** — n8n webhooks → Telegram for consultation alerts; browser-agent workflows
   for publishing and business-listing checks.
 
@@ -30,8 +33,8 @@ deployment, and the search visibility that makes them pay off.
 
 ## Stack
 
-`TypeScript` `Node.js` `NestJS` `GraphQL` `Next.js` `React` `MongoDB` `Python`
-`Docker` `Nginx` `Linux` `Cloudflare Workers AI` `n8n`
+`TypeScript` `Node.js` `NestJS` `GraphQL` `Next.js` `React` `React Native` `iOS` `MongoDB` `Supabase` `Python`
+`Docker` `Nginx` `Linux` `Fly.io` `Cloudflare Workers AI` `n8n`
 `Technical SEO` `Structured data` `Google Search Console` `Naver Search Advisor`
 
 ## Languages
