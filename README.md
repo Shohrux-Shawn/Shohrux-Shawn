@@ -1,6 +1,6 @@
 # Shohrux Muhiddiyn
 
-**Senior Software Developer** · Busan, South Korea
+**Senior Software Developer** · Busan, South Korea<br>
 Full-stack TypeScript · Technical SEO & GEO · AI-assisted content systems
 
 I build and run production web platforms end to end — architecture, backend, frontend,
