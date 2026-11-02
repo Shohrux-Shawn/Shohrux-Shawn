@@ -19,11 +19,21 @@ deployment, and the search visibility that makes them pay off.
   per-IP rate limits and cited sources.
 - **Content pipeline** — automated generation, review rules and scheduled drip publishing
   across all sites (~70 articles/day), with sitemap and search-console submission.
-- **Byeolgil — AI fortune-telling app** — saju, yearly fortune, compatibility, plus face and
+- **[Byeolgil](https://byeolgil.com) — AI fortune-telling app** — saju, yearly fortune, compatibility, tarot, plus face and
   palm reading from camera photos. Web app (React) and a React Native mobile app for iOS,
   on Supabase + Fly.io, multilingual.
 - **Automation** — n8n webhooks → Telegram for consultation alerts; browser-agent workflows
   for publishing and business-listing checks.
+
+## Live work
+
+| Site | What it is |
+|---|---|
+| [byeolgil.com](https://byeolgil.com) | Byeolgil — AI saju, fortune, compatibility, tarot, face & palm reading (web + React Native iOS app) |
+| [daehanlaw.com](https://www.daehanlaw.com) | Law firm main site — 7 languages, legal AI assistant at [/ai](https://www.daehanlaw.com/ai) |
+| [daehanlaw-criminal.com](https://www.daehanlaw-criminal.com) | Criminal defense center |
+| [daehanlaw-divorce.com](https://www.daehanlaw-divorce.com) | Divorce & family law center |
+| [daehanlaw-school.com](https://www.daehanlaw-school.com) | School violence & juvenile cases center |
 
 ## Open source
 
