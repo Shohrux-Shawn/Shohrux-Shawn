@@ -33,11 +33,11 @@ const shohrux = {
 
 ### 🛠️ What I work on
 
-- ⚖️ **Multi-site legal services platform** — 7 production sites for a Korean law firm on one Turborepo monorepo: Next.js 14 frontends, a shared NestJS + GraphQL (Apollo) API, MongoDB Atlas with per-site data isolation, Docker Compose + Nginx on a VPS.
+- ⚖️ **[Daehan Law](https://daehanlaw.com) — multi-site legal services platform** — the firm's main site plus **7 satellite practice-area sites** (8 production sites), all on one Turborepo monorepo: Next.js 14 frontends, a shared NestJS + GraphQL (Apollo) API, MongoDB Atlas with per-site data isolation. Built **solo, end to end** — full-stack development, **DevOps** (Docker Compose, Nginx, VPS deployment) and **security**.
 - 🏢 **[DHJ Land](https://dhjaland.com) — real estate & auction platform** — nationwide listing portal for a Busan brokerage, integrated with **50+ Korean public and private APIs**: sales, leases and rentals plus court-auction and public-sale (공매) data, search by region, type, price and area, auction-specific sorting (discount to appraisal, failed bids), transaction-cost calculator and listing submission.
 - 🌍 **Multilingual SEO** — Korean default plus English, Chinese, Japanese, Russian, Vietnamese and Uzbek as indexable sub-paths. English pages brought in organic consultation leads within the first week.
 - 🤖 **Legal AI assistant (RAG)** — answers grounded in indexed Korean statutes and visa tables using Cloudflare Workers AI embeddings + Vectorize, multi-provider model fallback, per-IP rate limits and cited sources.
-- 📰 **Content pipeline** — automated generation, review rules and scheduled drip publishing across all sites (~70 articles/day), with sitemap and search-console submission.
+- 📰 **Content pipeline** — automated generation, review rules and scheduled drip publishing across all 8 law-firm sites (~70 articles/day), with sitemap and search-console submission.
 - 🔮 **[Byeolgil](https://byeolgil.com) — AI fortune-telling app** — saju, yearly fortune, compatibility, tarot, plus face and palm reading from camera photos. Web app (React) and a React Native mobile app for iOS, on Supabase + Fly.io, multilingual.
 - ⚙️ **Automation** — n8n webhooks → Telegram for consultation alerts; browser-agent workflows for publishing and business-listing checks.
 
@@ -45,12 +45,16 @@ const shohrux = {
 
 | Site | What it is |
 |---|---|
-| [byeolgil.com](https://byeolgil.com) | Byeolgil — AI saju, fortune, compatibility, tarot, face & palm reading (web + React Native iOS app) |
+| [daehanlaw.com](https://daehanlaw.com) | **Main site** — law firm hub, 7 languages, legal AI assistant at `/ai` |
+| [daehanlaw-divorce.com](https://daehanlaw-divorce.com) | Satellite · Divorce & family law |
+| [daehanlaw-estate.com](https://daehanlaw-estate.com) | Satellite · Real estate & housing law |
+| [daehanlaw-criminal.com](https://daehanlaw-criminal.com) | Satellite · Criminal defense |
+| [daehanlaw-sexcrime.com](https://daehanlaw-sexcrime.com) | Satellite · Sex crime defense |
+| [daehanlaw-school.com](https://daehanlaw-school.com) | Satellite · School violence & juvenile cases |
+| [daehanlaw-drug.com](https://daehanlaw-drug.com) | Satellite · Drug crime defense |
+| [daehanlaw-compensation.com](https://daehanlaw-compensation.com) | Satellite · Civil disputes, damages & enforcement |
 | [dhjaland.com](https://dhjaland.com) | DHJ Land — real estate & court-auction platform, 50+ Korean APIs integrated |
-| [daehanlaw.com](https://daehanlaw.com) | Law firm main site — 7 languages, legal AI assistant at `/ai` |
-| [daehanlaw-criminal.com](https://daehanlaw-criminal.com) | Criminal defense center |
-| [daehanlaw-divorce.com](https://daehanlaw-divorce.com) | Divorce & family law center |
-| [daehanlaw-school.com](https://daehanlaw-school.com) | School violence & juvenile cases center |
+| [byeolgil.com](https://byeolgil.com) | Byeolgil — AI saju, fortune, compatibility, tarot, face & palm reading (web + React Native iOS app) |
 
 ### 📦 Open source
 
